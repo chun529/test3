@@ -1,0 +1,55 @@
+body {
+    font-family: "微软雅黑";
+    margin: 0px;
+    padding: 0px;
+    background-color: #eff3f6;
+    min-width: 1290px;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 16px;
+    color: #c9cfd7;
+    font-family: '微软雅黑';
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 16px;
+    color: #c9cfd7;
+    font-family: '微软雅黑';
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size:16px;
+    color: #c9cfd7;
+    font-family: '微软雅黑';
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size: 16px;
+    color: #c9cfd7;
+    font-family: '微软雅黑';
+}
+
+/* 引用字体 */
+@font-face{
+    font-family: TitilliumWeb;
+    src: url(fonts/TitilliumWeb-Regular-10.ttf);
+}
+.TitilliumWeb{
+    font-family: 'TitilliumWeb';
+}
+/* 版心 */
+.centre{
+    width: 1290px;
+    margin: 0 auto;
+}
+.clear {
+    list-style: none;
+}
+.clear li {
+    float: left;
+}
